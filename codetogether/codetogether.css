@@ -1,6 +1,7 @@
 body{
 	background: #B3B3B3;
 	font-size: 110%;
+	margin: 3%;
 }
 h1{
   /* background: #B3B3B3; */
@@ -11,6 +12,8 @@ h1{
 header{
   background: #666666;
   text-align: center;
+  padding-bottom: 2%;
+  padding-top: 1%;
 }
 
 h1{
@@ -22,6 +25,13 @@ nav{
 	font-size: 150%;
 	font-family: Arial, "Time New Roman", Serif;
 	margin-top: 30px;
+	
+}
+
+nav a{
+	background: #FFFFFF;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 h2{
@@ -30,11 +40,33 @@ h2{
 
 }
 
+.fav{
+	display: inline-block;
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+	
+
+
+}
+
+#more{
+	clear: both;
+}
+
+
+
+
 p{
 	font-style: italic;
 	line-height: 150%;
 }
 
+img{
+	width: 8%;
+}
+
 footer{
 	background: #666666;
+	padding-bottom: 5%;
 }
