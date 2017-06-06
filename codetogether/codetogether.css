@@ -16,6 +16,15 @@ header{
   padding-top: 1%;
 }
 
+header,footer{
+	background: #666666;
+	background:-webkit-linear-gradient(#666666 0%, #37cbff 100%);
+	background: -o-linear-gradient(#666666 0%, #37cbff 100%);
+	background: -moz-linear-gradient(#666666 0%, #37cbff 100%);
+	background:linear-gradient(#666666 0%, #37cbff 100%);
+
+}
+
 h1{
 	color: #FFFFFF;
 }
@@ -29,9 +38,10 @@ nav{
 }
 
 nav a{
+	display: inline-block;
+	width: 20%;
 	background: #FFFFFF;
-	padding-left: 5%;
-	padding-right: 5%;
+	
 }
 
 h2{
@@ -67,6 +77,5 @@ img{
 }
 
 footer{
-	background: #666666;
 	padding-bottom: 5%;
 }
