@@ -1,0 +1,40 @@
+body{
+  background-color: #F2F2F2;
+  margin: 1%;
+  padding:1%;
+}
+
+nav{
+  box-sizing: border-box;
+  border: 1px solid #06425C;
+  color:#06425C;
+  background-color:#486B02;
+  overflow: auto;
+  /*padding-left:8%;*/
+  /*float:left;*/
+  display: inline-block;
+  width: 20%;
+  height: 100vh;
+  margin-right: 3%;
+}
+
+nav a{
+  color: #FFFFFF;
+  display:block;
+  font-size: 90%;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  /*text-align: center;*/
+  padding-left: 50px;
+  margin:10px 0 10px 5px;
+}
+
+section{
+  /*float: right;
+  width: 75%;*/
+  width: 75%;
+  display: inline-block;
+  height: 100vh;
+  overflow: auto;
+}
