@@ -2,9 +2,14 @@ body{
 	font-family: "Times New Roman", Georgia,Serif;
 }
 
+#title,ul,.search{
+	box-sizing: border-box;
+	width: 30%;
+}
+
 #title{
-	border: 1px solid black;
-    width: 28%;
+	/*border: 1px solid black;*/
+    /*width: 28%;*/
     padding: 1%;
     float: left;
 
@@ -40,7 +45,7 @@ nav a{
 
 .search{
 	float: right;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 2%;
 	margin: 1%;
 	font-size: 120%;
